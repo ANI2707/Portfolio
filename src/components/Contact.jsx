@@ -84,7 +84,7 @@ const Contact = () => {
         <p className="text-[#00040f] dark:text-slate-300 mx-2 text-center capitalize tracking-widest max-sm:text-sm p-2">
           made with 💙 by Aniket Bhosale
         </p>
-        <a href="#top">Top</a>
+        
       </section>
     </>
   );
