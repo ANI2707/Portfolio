@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { college } from "../constants/Constant";
 
-
 const Education = () => {
   useEffect(() => {
     AOS.init();
@@ -25,12 +24,13 @@ const Education = () => {
           data-aos="fade-right"
         >
           <div className="max-w-[520px] mt-[52px] p-7 max-sm:p-3">
-            <div className="flex gap-5">
-              <img
-                src={college}
-                alt="SPPU"
-                className="w-[90px] h-[90px]"
-              />
+            <div
+              className="flex gap-5"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="3000"
+            >
+              <img src={college} alt="SPPU" className="w-[90px] h-[90px]" />
               <h1 className="bg-clip-text text-transparent bg-gradient-to-r max-sm:text-[17px] from-amber-500 via-orange-600 to-yellow-500 dark:from-[#ff6600] dark:to-slate-100 font-semibold text-2xl w-[300px] h-[100px] tracking-wider ">
                 Savitribai Phule Pune University
               </h1>
@@ -44,9 +44,10 @@ const Education = () => {
                 Dec 2021 - May 2025
               </p>
 
-              <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
+              <p className="font-semibold capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
                 Computer Engineering
               </p>
+              <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">I have studied DataBase Management Systems, Computer Networks, Web Development, Operating System and done multiple projects</p>
             </div>
           </div>
           <Lottie

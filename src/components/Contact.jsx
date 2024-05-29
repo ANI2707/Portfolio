@@ -8,6 +8,7 @@ import {
 } from "react-icons/si";
 
 import { personal } from "../constants/Constant";
+import Form from "./Form";
 
 const Contact = () => {
   return (
@@ -57,8 +58,8 @@ const Contact = () => {
               </a>
             </div>
             <div className="flex gap-5 max-sm:justify-center">
-              <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300  from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
-                <a href="https://drive.google.com/file/d/1Mx6lPk2oQSlwi64xhZDOoWbX_Ic1R5rO/view">Resume</a>
+              <button className="py-3 px-4  mt-10 mr-3 text-sm font-medium text-center text-white rounded-lg bg-blue-600 sm:w-fit focus:ring-4  dark:hover:bg-primary-700 dark:focus:ring-primary-800 ">
+                <a href="https://drive.google.com/file/d/1Mx6lPk2oQSlwi64xhZDOoWbX_Ic1R5rO/view" target="_blank">Resume</a>
               </button>
               {/* <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300 from-blue-600 to-cyan-600  font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
                 <a
@@ -71,6 +72,7 @@ const Contact = () => {
               </button> */}
             </div>
           </div>
+          <Form/>
 
           <div className="IMG p-0 max-sm:grid max-sm:place-content-center">
             <img

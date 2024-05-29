@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <>
-      <section id="top" className="NAVBAR p-5 mx-20 mt-5  max-sm:p-2 max-sm:mx-5 max-sm:max-h-[48px]">
+      <section id="top" className="NAVBAR  p-5 mx-20 mt-5  max-sm:p-2 max-sm:mx-5 max-sm:max-h-[48px]">
         <div className="NAVBAR flex  justify-between capitalize">
           <div className="LOGO">
             <a

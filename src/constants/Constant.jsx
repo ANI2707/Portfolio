@@ -6,10 +6,22 @@ import CSS from "../assets/CSS.png";
 import Python from "../assets/Python.png";
 import Javascript from "../assets/Javascript.png";
 import Git from "../assets/Git.png";
-import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import react from "../assets/react.png";
-import Vue from "../assets/vue.png";
+import nodejs from "../assets/nodejs.png";
+import postgresql from "../assets/postgresql.png";
+import express from "../assets/expressjs.png";
+import redux from "../assets/redux.png";
+import supabase from "../assets/supabase.png";
+import prisma from "../assets/prisma.png";
+import nextjs from "../assets/nextjs.png";
+import typescript from "../assets/typescript.png";
+import mysql from "../assets/mysql.png";
+import firebase from "../assets/firebase.png";
+import docker from "../assets/docker.png";
+import jest from "../assets/jest.png";
+
+
 
 import GSSOC from "../assets/GSSoc.jpg"
 import elite from "../assets/elite.jpeg";
@@ -21,6 +33,7 @@ import personal from "../assets/personal.jpg";
 import frontendworld from "../assets/frontendworld.webp";
 
 
+
 import vidigo from "../assets/vidigo.png";
 import instaShow from "../assets/instaShow.png";
 import fitlifehub from "../assets/fitlifehub.png";
@@ -29,18 +42,28 @@ import snakegame from "../assets/snakegame.png";
 
 
 export {
+  redux,
+  supabase,
+  prisma,
+  nextjs,
+  typescript,
+  mysql,
+  firebase,
+  jest,
+  docker,
   C,
   CPP,
   HTML,
   CSS,
   Github,
   Git,
-  Vite,
   TailwindCSS,
   react,
+  nodejs,
   Python,
   Javascript,
-  Vue,
+  postgresql,
+  express,
   GSSOC,
   elite,
   gfg,

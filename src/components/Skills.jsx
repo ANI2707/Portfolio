@@ -3,14 +3,23 @@ import {
   CSS,
   Github,
   Git,
-  Vite,
   TailwindCSS,
   react,
   Python,
   Javascript,
   CPP,
-  C,
-  Vue
+  nodejs,
+  express,
+  postgresql,
+  prisma,
+  mysql,
+  nextjs,
+  firebase,
+  supabase,
+  typescript,
+  redux,
+  docker,
+  jest,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -24,26 +33,41 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <section className="EXPERIENCE p-5 mx-20 mb-10  font-['Poppins']  max-sm:p-2 max-sm:mx-5">
+      <section className="EXPERIENCE p-5 mx-20 mb-10  font-['Poppins']  max-sm:p-2 max-sm:mx-5 ">
         <h1 className="text-[#00040f] dark:text-slate-300 font-extrabold text-5xl text-center max-sm:text-4xl ">
           SKILLS
         </h1>
         <div
-          className="IMG grid place-content-center p-5 grid-cols-3 gap-4 max-sm:p-2 mt-10"
+          className=" flex flex-wrap justify-center text-center gap-2   p-5 max-sm:p-2 mt-10"
           data-aos="zoom-out-up"
         >
-          <Image img={HTML}></Image>
-          <Image img={CSS}></Image>
-          <Image img={Javascript}></Image>
-          <Image img={react}></Image>
-          <Image img={TailwindCSS}></Image>
-          <Image img={Vue}></Image>
-          <Image img={CPP}></Image>
-          <Image img={C}></Image>
-          <Image img={Python}></Image>
-          <Image img={Vite}></Image>
-          <Image img={Git}></Image>
-          <Image img={Github}></Image>
+          
+          
+              <a href=""><Image img={CPP} ></Image></a>
+              
+              <Image img={Python}></Image>
+              <Image img={Javascript}></Image>
+              <Image img={HTML}></Image>
+              <Image img={CSS}></Image>
+              <Image img={react}></Image>
+              <Image img={Git}></Image>
+              <Image img={Github}></Image>
+              <Image img={react}></Image>
+              <Image img={TailwindCSS}></Image>
+              <Image img={nodejs}></Image>
+              <Image img={express}></Image>
+              <Image img={postgresql}></Image>
+              <Image img={mysql}></Image>
+              <Image img={prisma}></Image>
+              <Image img={nextjs}></Image>
+              <Image img={firebase}></Image>
+              <Image img={supabase}></Image>
+              <Image img={docker}></Image>
+              <Image img={typescript}></Image>
+              <Image img={redux}></Image>
+              <Image img={jest}></Image>
+              
+           
         </div>
       </section>
     </>
