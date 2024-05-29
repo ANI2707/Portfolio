@@ -1,5 +1,5 @@
-// import Lottie from "lottie-react";
-// import education from "../assets/lottie/education.json";
+import Lottie from "lottie-react";
+import education from "../assets/lottie/education.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -50,11 +50,11 @@ const Education = () => {
               <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">I have studied DataBase Management Systems, Computer Networks, Web Development, Operating System and done multiple projects</p>
             </div>
           </div>
-          {/* <Lottie
+          <Lottie
             animationData={education}
             loop={true}
             className="max-w-[500px] rounded-xl "
-          /> */}
+          />
         </div>
       </div>
     </section>
