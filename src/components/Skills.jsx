@@ -20,6 +20,7 @@ import {
   redux,
   docker,
   jest,
+  mongodb,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -38,12 +39,12 @@ const Skills = () => {
           SKILLS
         </h1>
         <div
-          className=" flex flex-wrap justify-center text-center gap-2   p-5 max-sm:p-2 mt-10"
+          className=" grid grid-cols-3 sm:grid-cols-6   gap-2   p-5 max-sm:p-2 mt-10"
           data-aos="zoom-out-up"
         >
           
           
-              <a href=""><Image img={CPP} ></Image></a>
+              <Image img={CPP} ></Image>
               
               <Image img={Python}></Image>
               <Image img={Javascript}></Image>
@@ -52,12 +53,12 @@ const Skills = () => {
               <Image img={react}></Image>
               <Image img={Git}></Image>
               <Image img={Github}></Image>
-              <Image img={react}></Image>
               <Image img={TailwindCSS}></Image>
               <Image img={nodejs}></Image>
               <Image img={express}></Image>
               <Image img={postgresql}></Image>
               <Image img={mysql}></Image>
+              <Image img={mongodb}></Image>
               <Image img={prisma}></Image>
               <Image img={nextjs}></Image>
               <Image img={firebase}></Image>

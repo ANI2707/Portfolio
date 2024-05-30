@@ -47,7 +47,7 @@ const Education = () => {
               <p className="font-semibold capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">
                 Computer Engineering
               </p>
-              <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">I have studied DataBase Management Systems, Computer Networks, Web Development, Operating System and done multiple projects</p>
+              <p className="capitalize text-gray-500 dark:text-slate-500 text-xl max-sm:text-lg leading-9">I have studied DataBase Management Systems,data structure and algorithms, Computer Networks, Web Development, Operating System and done multiple projects</p>
             </div>
           </div>
           <Lottie

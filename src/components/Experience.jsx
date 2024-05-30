@@ -89,7 +89,7 @@ const Experience = () => {
           </div>
         </div>
       </section>
-      <Skills></Skills>
+      
     </>
   );
 };

@@ -20,6 +20,7 @@ import mysql from "../assets/mysql.png";
 import firebase from "../assets/firebase.png";
 import docker from "../assets/docker.png";
 import jest from "../assets/jest.png";
+import mongodb from "../assets/mongodb.png";
 
 
 
@@ -51,6 +52,7 @@ export {
   firebase,
   jest,
   docker,
+  mongodb,
   C,
   CPP,
   HTML,

@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import HashLoader from "react-spinners/HashLoader";
 
 import { useState, useEffect } from "react";
+import Skills from "./components/Skills";
 
 const override = {
   display: "flex",
@@ -44,6 +45,7 @@ const App = () => {
           <About></About>
           <Experience></Experience>
           <Education></Education>
+          <Skills/>
           <Projects></Projects>
           <Contact></Contact>
         </div>

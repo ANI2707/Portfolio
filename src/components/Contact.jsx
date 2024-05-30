@@ -29,30 +29,35 @@ const Contact = () => {
               <a
                 href="https://github.com/ANI2707"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
               >
                 <SiGithub />
               </a>
               <a
                 href="https://www.linkedin.com/in/aniket-bhosale-217a7a223/"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
               >
                 <SiLinkedin />
               </a>
               <a
                 href="https://www.instagram.com/aniket.bhosale_"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
               >
                 <SiInstagram />
               </a>
               <a
                 href="https://twitter.com/AniketB82544141"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
               >
                 <SiTwitter />
               </a>
               <a
                 href="bhosaleaniket826@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
+                target="_blank"
               >
                 <SiGmail />
               </a>

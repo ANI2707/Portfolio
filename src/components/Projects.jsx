@@ -226,6 +226,12 @@ const Projects = () => {
           />
         </div>
       </div>
+      <div className="flex justify-center">
+      <button className="py-3 px-4  mt-10 mr-3 text-sm font-medium text-center text-white rounded-lg bg-blue-600 sm:w-fit focus:ring-4  dark:hover:bg-primary-700 dark:focus:ring-primary-800 ">
+                <a href="https://github.com/ANI2707" target="_blank">For more projects...</a>
+              </button>
+      </div>
+      
     </section>
   );
 };
