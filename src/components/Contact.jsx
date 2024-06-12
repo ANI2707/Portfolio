@@ -57,14 +57,14 @@ const Contact = () => {
               <a
                 href="bhosaleaniket826@gmail.com"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
-                target="_blank"
+                
               >
                 <SiGmail />
               </a>
             </div>
             <div className="flex gap-5 max-sm:justify-center">
               <button className="py-3 px-4  mt-10 mr-3 text-sm font-medium text-center text-white rounded-lg bg-blue-600 sm:w-fit focus:ring-4  dark:hover:bg-primary-700 dark:focus:ring-primary-800 ">
-                <a href="https://drive.google.com/file/d/1Mx6lPk2oQSlwi64xhZDOoWbX_Ic1R5rO/view" target="_blank">Resume</a>
+                <a href="https://drive.google.com/file/d/1YPX3DvUl-xd9CyHc7d_kXmcg8lx4f350/view?usp=sharing" target="_blank">Resume</a>
               </button>
               {/* <button className="py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300 from-blue-600 to-cyan-600  font-medium text-[12px] text-[#e1e1e1] dark:text-black outline-none mt-10 mr-3 rounded ">
                 <a

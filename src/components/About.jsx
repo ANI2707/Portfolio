@@ -12,7 +12,7 @@ const About = () => {
           <div className="INTRO text-[70px] leading-[80px] font-semibold max-sm:text-[50px] max-sm:leading-[70px] max-sm:font-semibold">
             <h3 className="text-[#00040f] dark:text-white">
               Hi, there!{" "}
-              <span className="wave" role="img" aria-labelledby="wave">
+              <span className="relative -z-10 wave " role="img" aria-labelledby="wave">
                 👋🏻
               </span>{" "}
               <br />I am
