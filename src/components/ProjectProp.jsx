@@ -2,7 +2,7 @@
 import { SiGithub } from "react-icons/si";
 import { SlLink } from "react-icons/sl";
 
-const Project_prop = (props) => {
+const ProjectProp = (props) => {
   return (
     <>
       <div className=" border-gray-500 shadow-xl  bg-[#e1e1e1] dark:bg-transparent dark:border-white border rounded-xl min-h-[50vh] p-7  max-sm:p-3  hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] dark:from-[#00040F] dark:to-[#0B274C]">
@@ -52,4 +52,4 @@ const Project_prop = (props) => {
     </>
   );
 };
-export default Project_prop;
+export default ProjectProp;

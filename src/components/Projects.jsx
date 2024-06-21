@@ -1,4 +1,4 @@
-import Project_prop from "./project_prop";
+import ProjectProp from "./ProjectProp";
 import {
   
   vidigo,
@@ -51,7 +51,7 @@ const Projects = () => {
           className="PROJECTS mt-16 grid gap-10 grid-cols-2 max-sm:grid-cols-1"
           data-aos="zoom-out-down"
         >
-          <Project_prop
+          <ProjectProp
             title="vidigo"
             para="• Vidigo is a cutting-edge YouTube clone crafted with React.js and Tailwind CSS, offering a sleek and intuitive
             interface for users to explore and engage with video content • With features like infinite scrolling, live chat powered by API pooling, and category-wise video filtering, Its advanced
@@ -88,7 +88,7 @@ const Projects = () => {
               </Tooltip>
             }
           />
-          <Project_prop
+          <ProjectProp
             title="InstaShow"
             para="Developed a instagram  web application using React.js, Chakra
             UI, and Firebase
@@ -127,7 +127,7 @@ const Projects = () => {
               </Tooltip>
             }
           />
-          <Project_prop
+          <ProjectProp
             title="NetflixGPT"
             para="NetFlix GPT is a React web application inspired by Netflix, integrating AI-generated movie suggestions using
             OpenAI’s GPT model.
@@ -173,7 +173,7 @@ const Projects = () => {
               </Tooltip>
             }
           />
-          <Project_prop
+          <ProjectProp
             title="Fitlife Hub"
             para="FitLifeHub is a comprehensive fitness website designed and developed using React.js, Material UI,Tailwind CSS and
             various React packages, ensuring a dynamic and user-friendly experience.The integration of Rapid API allows seamless retrieval and display of preferred exercises"
@@ -196,7 +196,7 @@ const Projects = () => {
             }
             
           />
-          <Project_prop
+          <ProjectProp
             title="Snake Game"
             para="Created old nokia Mobile phone Snake game  to remember childhood memories"
             img={snakegame}
