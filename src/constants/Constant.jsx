@@ -24,7 +24,7 @@ import mongodb from "../assets/mongodb.png";
 
 
 
-import GSSOC from "../assets/GSSoc.jpg"
+import GSSOC from "../assets/gssoc.png"
 import elite from "../assets/elite.jpeg";
 import gfg from "../assets/gfg.png";
 import social from "../assets/social.jpeg";
