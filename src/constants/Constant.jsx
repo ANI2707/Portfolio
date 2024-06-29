@@ -7,7 +7,7 @@ import Python from "../assets/Python.png";
 import Javascript from "../assets/Javascript.png";
 import Git from "../assets/Git.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
-import react from "../assets/react.png";
+import react from "../assets/React.png";
 import nodejs from "../assets/nodejs.png";
 import postgresql from "../assets/postgresql.png";
 import express from "../assets/expressjs.png";
