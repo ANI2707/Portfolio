@@ -11,8 +11,8 @@ const Form = () => {
         console.log(formRef.current)
     
         emailjs
-          .sendForm('service_ok22trb', 'template_rgownsg', formRef.current, {
-            publicKey: '3PCbiJfddkR3PJIbr',
+          .sendForm('', 'template_rgownsg', formRef.current, {
+            publicKey: '',
           })
           .then(
             () => {
