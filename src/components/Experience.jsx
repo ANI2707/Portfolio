@@ -13,6 +13,7 @@ import {
   social,
   ciphers,
   frontendworld,
+  curomates,
 } from "../constants/Constant";
 
 const Experience = () => {
@@ -34,6 +35,16 @@ const Experience = () => {
             className="EXPERIENCE mt-16 grid gap-20 max-sm:gap-10 max-sm:grid-cols-1 grid-cols-3"
             data-aos="zoom-in-up"
           >
+            <Exp_prop
+              img={curomates}
+              title="curoamtes"
+              subtitle="Software Development Intern"
+              date="Aug 2024 - Nov 2024"
+              para={`• Developed ReactJS and React Native features, enhancing user experience for 60K+ users.
+                    • Integrated Twilio, Plivo Programmable SMS for automated alerts, enhancing user engagement with targeted
+                    notifications and achieving a 25% increase in click-through rates on promotional messages.
+              `}
+            />
             <Exp_prop
               img={frontendworld}
               title="Frontend World"

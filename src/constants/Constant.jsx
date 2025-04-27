@@ -24,7 +24,7 @@ import mongodb from "../assets/mongodb.png";
 
 
 
-import GSSOC from "../assets/gssoc.png"
+import GSSOC from "../assets/gssoc.jpg"
 import elite from "../assets/elite.jpeg";
 import gfg from "../assets/gfg.png";
 import social from "../assets/social.jpeg";
@@ -32,7 +32,7 @@ import ciphers from "../assets/ciphers.jpg";
 import college from "../assets/college.png";
 import personal from "../assets/personal.jpg";
 import frontendworld from "../assets/frontendworld.webp";
-
+import curomates from "../assets/curomates.png"
 
 
 import vidigo from "../assets/vidigo.png";
@@ -40,7 +40,7 @@ import instaShow from "../assets/instaShow.png";
 import fitlifehub from "../assets/fitlifehub.png";
 import netflixgpt from "../assets/NetflixGpt.png";
 import snakegame from "../assets/snakegame.png";
-
+import fluxmeet from "../assets/fluxmeet.png"
 
 export {
   redux,
@@ -79,5 +79,8 @@ export {
   fitlifehub,
   netflixgpt,
   snakegame,
+  curomates,
+  fluxmeet
+
 
 };

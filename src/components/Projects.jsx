@@ -6,6 +6,7 @@ import {
   netflixgpt,
   fitlifehub,
   snakegame,
+  fluxmeet,
 } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
@@ -51,6 +52,44 @@ const Projects = () => {
           className="PROJECTS mt-16 grid gap-10 grid-cols-2 max-sm:grid-cols-1"
           data-aos="zoom-out-down"
         >
+           <ProjectProp
+            title="Fluxmeet"
+            para="A Zoom alternative, with authentication and authorization using Clerk for secure user access.
+                • Meeting controls, screen sharing, participant management, and emoji reactions.
+                • Meeting scheduling, listing, and viewing of future and past meetings with access to recorded sessions.
+                • Responsive and efficient UI, ensuring optimal user experience and real-time secure interactions across devices."
+            img={fluxmeet}
+            link="https://flux-meet.vercel.app/"
+            github_link="https://github.com/ANI2707/fluxMeet/"
+            react={
+              <Tooltip title="React" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            tailwindcss={
+              <Tooltip title="TailWind CSS" arrow>
+                <IconButton>
+                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            redux={
+              <Tooltip title="Redux" arrow>
+                <IconButton>
+                  <TbBrandRedux className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            vite={
+              <Tooltip title="Vite" arrow>
+                <IconButton>
+                  <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
           <ProjectProp
             title="vidigo"
             para="• Vidigo is a cutting-edge YouTube clone crafted with React.js and Tailwind CSS, offering a sleek and intuitive
